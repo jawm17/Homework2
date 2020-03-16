@@ -1,0 +1,11 @@
+.name {
+    background-color:	#66cccc;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.footer { position: fixed;
+    left: 0;
+    bottom: 0;
+    font-size: small;
+}
