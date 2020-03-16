@@ -1,11 +1,40 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://lh3.googleusercontent.com/proxy/QDdIoUYkCpKThQW9DqaNC_j0HLpEnl9NXA4aKPPyqUPiWxu7vpd_8tOgJqqT9nVR1Gt5YGVgIXH5Hoj3sjnGlN4brTGRySIUXjVDCTew-lolJ8gwtnlug7d9ybgbIv7CQIGXbht2V54ZGkJ3OGK743OHd2ZKCyxqbNQKEufYzmD7ETMt_kW6b5EN_WekvJFXY1TmcoiFFvre3ueQ6eXzScLT4do1QLYLNaxUHEY74AvAAHGeoJXBeRoX77P2DWeNpSI7daC7);
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
 .name {
+    float: left;
     background-color:	#66cccc;
+    width: 150px;
+    text-align: center;
     color: white;
     margin-top: 0;
     margin-bottom: 0;
+    padding: 5px;
+
 }
+
 .footer { position: fixed;
     left: 0;
     bottom: 0;
     font-size: small;
+}
+.box {
+    /* background-color: white; */
+    margin-left: 200px;
+    margin-top: 20px;
+    padding: 25px;
+
+}
+img {
+    padding: 0;
 }
