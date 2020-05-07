@@ -3,76 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
 </head>
-
 <body>
-    <!-- nav bar -->
-    <nav class="navbar navbar-light bg-light">
-        <div class="name nav-item text-light bg-info">Michael Sanderson</div>
-        <ul class="nav justify-content-end">
-            <!-- link to homepage -->
-            <li class="nav-item">
-              <a class="nav-link active" href="#">About</a>
-            </li>
-            <!-- link to portfolio -->
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <!-- link to contact page -->
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-      </nav>
+    <div class="container">
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+        <section id="home">
+          <h1>Michael Sanderson</h1>
+          <p class="lead">This is my web development portfolio. Feel free to look around and explore!</p>
+        </section>
+        <section id="about">
+            <h1>About</h1>
+            <p class="lead" style="margin-left: 10%; margin-right: 10%;">As a web developer and web enthusiast, I enjoy the freedom that my occupation affords me. Web applications can be built anywhere in the world and at anytime. The possibilities for creation are endless! I am only limited by my imagination.</p>
+        </section>
+        <section id="portfolio">
+            <h1 id="portfolioTitle">My Projects</h1>
+            <div class="card" id="one">
+                <img src="/Users/envyhose/Desktop/mathquiz.png" alt="Avatar" style="width:100%; height: 200px;">
+                <div class="body">
+                  <h4><b>Math Quiz</b></h4>
+                  <a href="https://jawm17.github.io/Math-quiz/" target="_blank">Deployed Application</a>
+                </div>
+              </div>
+              <div class="card" id="two">
+                <img src="/Users/envyhose/Desktop/weather.png" alt="Avatar" style="width:100%; height: 200px;">
+                <div class="body">
+                  <h4><b>Weather Dashboard</b></h4>
+                  <a href="https://jawm17.github.io/Weather-Dashboard/" target="_blank">Deployed Application</a>
+                </div>
+              </div>
+              <div class="card" id="two">
+                <img src="/Users/envyhose/Desktop/coronavirus.png" alt="Avatar" style="width:100%; height: 200px;">
+                <div class="body">
+                  <h4><b>Coronavirus Resource Page</b></h4>
+                  <a href="https://robynp108.github.io/CO-VIRAL-Group-5/" target="_blank">Deployed Application</a>
+                </div>
+              </div>
+              <div class="block">
 
-      <!-- main content box -->
-      <section class="main-content container my-5 mx-6 pb-5">
-        <!-- defines shadowed area -->
-        <div class="card shadow-lg col-lg-10 col-md-12">
-            <!-- header -->
-            <h4 class="card-header text-info font-weight-bolder bg-white">About Me</h4>
-            <div class="card-body">
-                <!-- profile image -->
-                <img src="https://scontent-lga3-1.cdninstagram.com/v/t51.2885-19/s150x150/66115961_693947884383743_672242525913743360_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_ohc=GuzUqpAI2oAAX_G5Q8w&oh=476bd5fb05a40e6c68bff6dcbd9e2ee6&oe=5E813888" class="col-lg-4 col-md-6 float-left mr-2 mb-1" alt="Michael Photo">
-                <!-- paragraph sample text -->
-                <p class="card-text text-justify">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis debitis id veritatis. 
-                    Fugiat deserunt, reiciendis sed ab sapiente, 
-                    explicabo ullam doloribus libero laborum doloremque, 
-                    temporibus officiis. Exercitationem officiis quo optio.
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis debitis id veritatis. 
-                    Fugiat deserunt, reiciendis sed ab sapiente, 
-                    explicabo ullam doloribus libero laborum doloremque, 
-                    temporibus officiis. Exercitationem officiis quo optio.
-                </p>
-                <p class="card-text text-justify">
-                    Fugiat deserunt, reiciendis sed ab sapiente, 
-                    explicabo ullam doloribus libero laborum doloremque, 
-                    temporibus officiis. Exercitationem officiis quo optio.
-                </p>
-                <p class="card-text text-justify"> 
-                    Fugiat deserunt, reiciendis sed ab sapiente, 
-                    explicabo ullam doloribus libero laborum doloremque, 
-                    temporibus officiis. Exercitationem officiis quo optio. Fugiat deserunt, reiciendis sed ab sapiente, 
-                    explicabo ullam doloribus libero laborum doloremque, 
-                    temporibus officiis. Exercitationem officiis quo optio.
-                </p>
-            </div>
-        </div>
-      </section>
-    
-
-    <!-- Footer -->
-    <footer class="footer text-center text-light p-4 bg-info container-fluid"
-        style="border-top: 6px gray solid;">
-        &copy; Copyright
-    </footer>
-  <!-- Footer -->
+              </div>
+        </section>
+        <section id="contact">
+            <h1>Contact Me</h1>
+            <div class="contactContainer">
+                <form action="action_page.php">
+              
+                  <label for="fname">Name</label>
+                  <input type="text" id="name" name="name" placeholder="John Smith">
+              
+                  <label for="lname">Email</label>
+                  <input type="text" id="email" name="email" placeholder="example@gmail.com">
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
+        </section>
+      </div>
 </body>
 </html>
