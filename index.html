@@ -1,75 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    <div class="container">
-        <nav class="navbar">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
-            </nav>
-        <section id="home">
-          <h1>Michael Sanderson</h1>
-          <p class="lead">This is my web development portfolio. Feel free to look around and explore!</p>
-        </section>
-        <section id="about">
-            <h1>About</h1>
-            <p class="lead" style="margin-left: 10%; margin-right: 10%;">As a web developer and web enthusiast, I enjoy the freedom that my occupation affords me. Web applications can be built anywhere in the world and at anytime. The possibilities for creation are endless! I am only limited by my imagination.</p>
-        </section>
-        <section id="portfolio">
-            <h1 id="portfolioTitle">My Projects</h1>
-            <div class="card" id="one">
-                <img src="images/mathquiz.png" alt="Avatar" style="width:100%; height: 200px;">
-                <div class="body">
-                  <h4><b>Math Quiz</b></h4>
-                  <a href="https://jawm17.github.io/Math-quiz/" target="_blank">Deployed Application</a>
-                </div>
-              </div>
-              <div class="card" id="two">
-                <img src="images/weather.png" alt="Avatar" style="width:100%; height: 200px;">
-                <div class="body">
-                  <h4><b>Weather Dashboard</b></h4>
-                  <a href="https://jawm17.github.io/Weather-Dashboard/" target="_blank">Deployed Application</a>
-                </div>
-              </div>
-              <div class="card" id="two">
-                <img src="images/coronavirus.png" alt="Avatar" style="width:100%; height: 200px;">
-                <div class="body">
-                  <h4><b>Coronavirus Resource Page</b></h4>
-                  <a href="https://robynp108.github.io/CO-VIRAL-Group-5/" target="_blank">Deployed Application</a>
-                </div>
-              </div>
-              <div class="block">
 
-              </div>
-        </section>
-        <section id="contact">
-            <h1>Contact Me</h1>
-            <div class="contactContainer">
-                <form action="action_page.php">
-              
-                  <label for="fname">Name</label>
-                  <input type="text" id="name" name="name" placeholder="John Smith">
-              
-                  <label for="lname">Email</label>
-                  <input type="text" id="email" name="email" placeholder="example@gmail.com">
-              
-                  <label for="subject">Subject</label>
-                  <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
-              
-                  <input type="submit" value="Submit">
-              
-                </form>
-              </div>
-        </section>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="home">
+      <h1>Michael Sanderson</h1>
+      <p class="lead">This is my web development portfolio. Feel free to look around and explore!</p>
+    </section>
+    <section id="about">
+      <h1>About</h1>
+      <p class="lead" style="margin-left: 10%; margin-right: 10%;">As a web developer and web enthusiast, I enjoy the
+        freedom that my occupation affords me. Web applications can be built anywhere in the world and at anytime. The
+        possibilities for creation are endless! I am only limited by my imagination.</p>
+      <form action="https://www.linkedin.com/in/michael-sanderson-4200201a6/" style="margin-top: 15px;">
+        <input type="submit" value="LinkedIn Profile" />
+      </form>
+    </section>
+    <section id="portfolio">
+      <h1 id="portfolioTitle">My Projects</h1>
+      <div class="card" id="one">
+        <img src="images/mathquiz.png" alt="Avatar" style="width:100%; height: 200px;">
+        <div class="body">
+          <h4><b>Math Quiz</b></h4>
+          <a href="https://jawm17.github.io/Math-quiz/" target="_blank">Deployed Application</a>
+        </div>
       </div>
+      <div class="card" id="two">
+        <img src="images/weather.png" alt="Avatar" style="width:100%; height: 200px;">
+        <div class="body">
+          <h4><b>Weather Dashboard</b></h4>
+          <a href="https://jawm17.github.io/Weather-Dashboard/" target="_blank">Deployed Application</a>
+        </div>
+      </div>
+      <div class="card" id="two">
+        <img src="images/coronavirus.png" alt="Avatar" style="width:100%; height: 200px;">
+        <div class="body">
+          <h4><b>Coronavirus Resource Page</b></h4>
+          <a href="https://robynp108.github.io/CO-VIRAL-Group-5/" target="_blank">Deployed Application</a>
+        </div>
+      </div>
+      <div class="block">
+
+      </div>
+    </section>
+    <section id="contact">
+      <h1>Contact Me</h1>
+      <div class="contactContainer">
+        <form action="action_page.php">
+
+          <label for="fname">Name</label>
+          <input type="text" id="name" name="name" placeholder="John Smith">
+
+          <label for="lname">Email</label>
+          <input type="text" id="email" name="email" placeholder="example@gmail.com">
+
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+
+          <input type="submit" value="Submit">
+
+        </form>
+      </div>
+    </section>
+  </div>
 </body>
+
 </html>
