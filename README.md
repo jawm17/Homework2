@@ -19,4 +19,4 @@ This was a homework assignment designed to test our understanding of the bootstr
 ```
 
 ## Screenshot
-![Screenshot of the website](screenshotExample.png)
+![Screenshot of the website](images/example.png)
